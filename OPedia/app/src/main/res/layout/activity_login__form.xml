@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3E3A4"
+    android:orientation="vertical"
+    tools:context=".Login_Form">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="137dp"
+        android:layout_height="128dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginLeft="128dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="146dp"
+        android:layout_marginRight="146dp"
+        android:layout_marginBottom="452dp"
+        app:srcCompat="@drawable/login" />
+
+    <LinearLayout
+        android:layout_width="340dp"
+        android:layout_height="401dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="79dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        android:layout_marginBottom="151dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/email_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="90dp"
+            android:layout_marginBottom="3dp"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textPersonName"
+            android:textColor="#F33B02"
+            android:textColorHighlight="#F44336" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="37dp"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColor="#F33B02"
+            android:textColorHighlight="#FF5722" />
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="#F33B02"
+            android:text="Login" />
+
+        <Button
+            android:id="@+id/goreg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="#F33B02"
+            android:text="REGISTER" />
+
+    </LinearLayout>
+
+</RelativeLayout>

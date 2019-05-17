@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:src="@drawable/sekai"
+            android:scaleType="fitXY"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="120dp"
+                android:text="Music For Fun"
+                android:textColor="@color/colorAccent"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Hikari E"
+                android:textSize="20sp"
+                android:layout_marginLeft="10dp"/>
+
+            <Button
+                android:id="@+id/play"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:text="Play"
+                android:textSize="11sp"
+                tools:ignore="HardcodedText"
+                android:layout_marginLeft="90dp"
+                />
+
+            <Button
+                android:id="@+id/stop"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:text="Stop"
+                android:textSize="11sp"
+                tools:ignore="HardcodedText"
+                />
+
+            <Button
+                android:id="@+id/pause"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:text="Pause"
+                android:textSize="11sp"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="2. We Can"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/play2"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:text="Play"
+                android:textSize="11sp"
+                tools:ignore="HardcodedText"
+                android:layout_marginLeft="90dp"
+                />
+
+            <Button
+                android:id="@+id/stop2"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:text="Stop"
+                android:textSize="11sp"
+                tools:ignore="HardcodedText"
+                />
+
+            <Button
+                android:id="@+id/pause2"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:text="Pause"
+                android:textSize="11sp"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="3. Run Run Run !"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/play3"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:text="Play"
+                android:textSize="11sp"
+                tools:ignore="HardcodedText"
+                android:layout_marginLeft="34dp"
+                />
+
+            <Button
+                android:id="@+id/stop3"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:text="Stop"
+                android:textSize="11sp"
+                tools:ignore="HardcodedText"
+                />
+
+            <Button
+                android:id="@+id/pause3"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:text="Pause"
+                android:textSize="11sp"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="4. The Rootless"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/play4"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:text="Play"
+                android:textSize="11sp"
+                tools:ignore="HardcodedText"
+                android:layout_marginLeft="43dp"
+                />
+
+            <Button
+                android:id="@+id/stop4"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:text="Stop"
+                android:textSize="11sp"
+                tools:ignore="HardcodedText"
+                />
+
+            <Button
+                android:id="@+id/pause4"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:text="Pause"
+                android:textSize="11sp"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="5. Hands Up"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/play5"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:text="Play"
+                android:textSize="11sp"
+                tools:ignore="HardcodedText"
+                android:layout_marginLeft="72dp"
+                />
+
+            <Button
+                android:id="@+id/stop5"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:text="Stop"
+                android:textSize="11sp"
+                tools:ignore="HardcodedText"
+                />
+
+            <Button
+                android:id="@+id/pause5"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:text="Pause"
+                android:textSize="11sp"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
