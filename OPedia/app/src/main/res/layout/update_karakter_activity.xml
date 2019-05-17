@@ -1,41 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_main"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin" >
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageKarakter"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="148dp"
+        android:layout_marginLeft="148dp"
+        android:layout_marginTop="3dp"
+        app:srcCompat="@mipmap/ic_launcher" />
 
     <ScrollView
-        android:layout_width="391dp"
-        android:layout_height="457dp">
+        android:layout_width="match_parent"
+        android:layout_height="353dp"
+        android:layout_marginTop="180dp">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="700dp"
+            android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <ImageView
-                android:id="@+id/imageView"
-                android:layout_width="match_parent"
-                android:layout_height="150dp"
-                android:layout_marginTop="10dp"
-                app:srcCompat="@mipmap/ic_launcher" />
-
-            <Button
-                android:id="@+id/btnChoose"
-                android:layout_width="120dp"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="130dp"
-                android:layout_marginLeft="130dp"
-                android:text="Choose image" />
-
             <EditText
-                android:id="@+id/etNama"
+                android:id="@+id/edtNama"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="0dp"
@@ -47,7 +39,7 @@
                 android:inputType="textPersonName" />
 
             <EditText
-                android:id="@+id/etJk"
+                android:id="@+id/edtJk"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
@@ -55,7 +47,7 @@
                 android:inputType="textPersonName" />
 
             <EditText
-                android:id="@+id/etBounty"
+                android:id="@+id/edtBounty"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
@@ -63,7 +55,7 @@
                 android:inputType="textPersonName" />
 
             <EditText
-                android:id="@+id/etAnggota"
+                android:id="@+id/edtAnggota"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
@@ -71,7 +63,7 @@
                 android:inputType="textPersonName" />
 
             <EditText
-                android:id="@+id/etPosisi"
+                android:id="@+id/edtPosisi"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
@@ -79,7 +71,7 @@
                 android:inputType="textPersonName" />
 
             <EditText
-                android:id="@+id/etHaki"
+                android:id="@+id/edtHaki"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
@@ -87,7 +79,7 @@
                 android:inputType="textPersonName" />
 
             <EditText
-                android:id="@+id/etBuah"
+                android:id="@+id/edtBuah"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
@@ -95,7 +87,7 @@
                 android:inputType="textPersonName" />
 
             <EditText
-                android:id="@+id/etTippe"
+                android:id="@+id/edtTippe"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
@@ -103,7 +95,7 @@
                 android:inputType="textPersonName" />
 
             <EditText
-                android:id="@+id/etBiografi"
+                android:id="@+id/edtBiografi"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
@@ -114,33 +106,12 @@
     </ScrollView>
 
     <Button
-        android:id="@+id/btnAdd"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginTop="450dp"
-        android:textColor="#ffffff"
-        android:layout_marginEnd="140dp"
-        android:layout_marginRight="140dp"
         android:background="@color/colorbutton"
-        android:text="Add" />
+        android:textColor="#fff"
+        android:id="@+id/btnUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="540dp"
+        android:text="Update" />
 
-    <Button
-        android:id="@+id/btnList"
-        android:layout_width="105dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/btnAdd"
-        android:layout_alignStart="@+id/btnAdd"
-        android:layout_alignLeft="@+id/btnAdd"
-        android:layout_alignParentEnd="true"
-        android:textColor="#ffffff"
-        android:layout_alignParentRight="true"
-        android:layout_marginStart="-12dp"
-        android:layout_marginLeft="-12dp"
-        android:layout_marginTop="15dp"
-        android:layout_marginEnd="130dp"
-        android:background="@color/colorbutton"
-        android:layout_marginRight="140dp"
-        android:text="Karakter List" />
 </RelativeLayout>
